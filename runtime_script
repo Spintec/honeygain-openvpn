@@ -1,0 +1,3 @@
+/usr/sbin/openvpn --config /app/config.ovpn --auth-user-pass <(echo -e "$OPENVPN_USER\n$OPENVPN_PASS") --daemon
+sleep 20s
+./honeygain $@

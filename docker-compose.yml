@@ -1,0 +1,14 @@
+version: "3.6"
+services:
+    honeygain:
+        environment:
+            - OPENVPN_USER=<openvpn_user>
+            - OPENVPN_PASS=<openvpn_password>
+        volumes:
+            - "./config.ovpn:/app/config.ovpn"
+        build: .
+        command: -tou-accept -email your_email@gmail.com -pass your_password -device dev1
+        cap_add:
+            - NET_ADMIN
+        devices:
+            - "/dev/net/tun:/dev/net/tun"
