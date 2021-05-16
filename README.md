@@ -18,7 +18,7 @@ The purpose of this repository is to create an openvpn connection from within th
    - OPENVPN_PASS;
    - replace your_email@gmail.com and your_password with the honeygain credentials.
 
-3. Run the following command from bash cli : ```docker-compose up --build```
+3. Run the following command from bash cli within the folder that contains  docker-compose.yml: ```docker-compose up --build```
 
 Note: In case you get the error "API Error: Network Unusable", it is because honeygain does not support Data Center (DCH) and Reserved (RSV) IP types as stated here: 
 https://honeygain.zendesk.com/hc/en-us/articles/360011078760-Error-Unusable-network.
