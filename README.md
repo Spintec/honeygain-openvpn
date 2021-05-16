@@ -23,4 +23,4 @@ The purpose of this repository is to create an openvpn connection from within th
 Note: In case you get the error "API Error: Network Unusable", it is because honeygain does not support Data Center (DCH) and Reserved (RSV) IP types as stated here: 
 https://honeygain.zendesk.com/hc/en-us/articles/360011078760-Error-Unusable-network.
 
-Special thanks to user [kiwimato](https://github.com/kiwimato "kiwimato")!
+Special thanks to user [kiwimato](https://github.com/kiwimato)!
